@@ -1,4 +1,10 @@
-import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn, UpdateDateColumn } from 'typeorm';
+import {
+  Entity,
+  Column,
+  PrimaryGeneratedColumn,
+  CreateDateColumn,
+  UpdateDateColumn,
+} from 'typeorm';
 
 interface AppointmentConstructor {
   provider: string;
@@ -14,7 +20,7 @@ class User {
 
   @Column()
   email: string;
-  
+
   @Column()
   password: string;
 
@@ -23,7 +29,6 @@ class User {
 
   @UpdateDateColumn()
   updated_at: Date;
-
 }
 
 export default User;
