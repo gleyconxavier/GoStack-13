@@ -57,3 +57,10 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+# Custom
+.idea/
+.vscode/
+tmp/*
+!tmp/.gitkeep
+temp/
