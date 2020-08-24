@@ -11,7 +11,7 @@ interface Request {
   password: string;
 }
 
-class CreateuserService {
+class CreateUserService {
   public async execute({ name, email, password }: Request): Promise<User> {
     const usersRepository = getRepository(User);
 
@@ -37,4 +37,4 @@ class CreateuserService {
   }
 }
 
-export default CreateuserService;
+export default CreateUserService;
