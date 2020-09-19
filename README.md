@@ -1,2 +1,3 @@
 # GoStack-12
-Meus códigos das aulas.
+
+Meus códigos produzidos durante o bootcamp GoStack 12
